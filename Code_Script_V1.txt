@@ -2491,7 +2491,7 @@ ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
 ToggleButton.Font = Enum.Font.SourceSans
-ToggleButton.Text = "Open Ui"
+ToggleButton.Text = "Open Hub[Premium]"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ToggleButton.TextSize = 14.000
 ToggleButton.Draggable = true
@@ -2503,88 +2503,88 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "NDK VIP", HidePremium = false, IntroText = "NDK VIP", SaveConfig = true, ConfigFolder = "NDK VIP"})
+local Window = OrionLib:MakeWindow({Name = "Mobile Hub[Premium]", HidePremium = false, IntroText =Mobile Hub[Premium]"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
-    Name = "Thông Tin",
+    Name = "Information",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "Chính",
+    Name = "Main",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "Cài đặt",
+    Name = "Setting",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "Vật phẩm",
+    Name = "Item",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
-    Name = "chri số",
+    Name = "Stat",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
-    Name = "định vị",
+    Name = "Esp",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
-    Name = "tập kích",
+    Name = "Raid",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
-    Name = "người chơi",
+    Name = "Local Player",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
-    Name = "di chuyển",
+    Name = "Teleport",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
-    Name = "Thông tin server",
+    Name = "Server Information",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = "Trái Ác quỷ",
+    Name = "Devil Fruit",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
-    Name = "Tộc V4",
+    Name = "Race V4",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
-    Name = "cửa hàng",
+    Name = "Shop",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
-    Name = "khác",
+    Name = "More",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2684,7 +2684,8 @@ local locallv = W:AddLabel("Level")
     })
     
     local Farmfast = W:AddLabel("Farm Fast : ❌")
-    local Bypass = W:AddLabel("Bypass ❌")
+    local Bypass = W:AddLabel("Bypass: ✅")
+    local Bypass anticheat = W:AddLabel("Bypass: ✅")
     local Section = W:AddSection({
         Name = "World"
     })
